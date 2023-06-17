@@ -1,0 +1,9 @@
+{% extends "commun/base.html" %}
+{% block content %}
+    <h2 class="border-top pt-3">You have been signed out</h2>
+    <div ckass="border-top pt-3">
+        <small class="text-muted">
+           <a href="{% url 'login' %}">Sign In</a>
+        </small>
+    </div>
+{% endblock content %}
