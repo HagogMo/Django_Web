@@ -1,9 +1,10 @@
 {% extends "commun/base.html" %}
+{% load i18n %}
 {% block content %}
-    <h2 class="border-top pt-3">You have been signed out</h2>
+    <h2 class="border-top pt-3">{% trans 'You have been signed out' %}</h2>
     <div ckass="border-top pt-3">
         <small class="text-muted">
-           <a href="{% url 'login' %}">Sign In</a>
+           <a href="{% url 'login' %}">{% trans 'Sign In' %}</a>
         </small>
     </div>
 {% endblock content %}

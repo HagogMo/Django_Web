@@ -2,6 +2,7 @@ body {
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
+  text-align: initial;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +80,6 @@ a.article-title:hover {
   margin-bottom: 16px;
 }
 
-.account-heading {
-  font-size: 2.5rem;
+.comment-form-holder textarea {
+  height: 60px;
 }

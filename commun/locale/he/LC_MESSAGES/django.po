@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-07 22:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+
+#: .\commun\forms.py:12 .\commun\models.py:11 .\commun\models.py:23
+#: .\commun\views.py:79 .\commun\views.py:98 .\commun\views.py:113
+#: .\commun\views.py:128
+msgid "content"
+msgstr "תוכן"
+
+#: .\commun\models.py:10 .\commun\models.py:22 .\commun\views.py:78
+#: .\commun\views.py:97 .\commun\views.py:112 .\commun\views.py:127
+msgid "title"
+msgstr "כותרת"
+
+#: .\commun\templates\commun\about.html:4
+msgid "About Page"
+msgstr "עלינו"
+
+#: .\commun\templates\commun\base.html:18
+#: .\commun\templates\commun\base.html:20
+#: .\commun\templates\commun\base.html:27
+msgid "Django Blog"
+msgstr "בלוג"
+
+#: .\commun\templates\commun\base.html:33
+msgid "Home"
+msgstr "בית"
+
+#: .\commun\templates\commun\base.html:34
+msgid "About"
+msgstr "עלינו"
+
+#: .\commun\templates\commun\base.html:39
+msgid "New Post"
+msgstr "פרסם"
+
+#: .\commun\templates\commun\base.html:40
+msgid "Profile"
+msgstr "פרופיל"
+
+#: .\commun\templates\commun\base.html:42
+msgid "Logout"
+msgstr "צא מחשבון"
+
+#: .\commun\templates\commun\base.html:44
+msgid "Login"
+msgstr "כנס לחשבון"
+
+#: .\commun\templates\commun\base.html:45
+msgid "Register"
+msgstr "להירשם"
+
+#: .\commun\templates\commun\home.html:20
+#: .\commun\templates\commun\user_posts.html:21
+msgid "First"
+msgstr "ראשון"
+
+#: .\commun\templates\commun\home.html:21
+#: .\commun\templates\commun\user_posts.html:23
+msgid "Previous"
+msgstr "אחורה"
+
+#: .\commun\templates\commun\home.html:32
+#: .\commun\templates\commun\user_posts.html:34
+msgid "Next"
+msgstr "קדימה"
+
+#: .\commun\templates\commun\home.html:33
+#: .\commun\templates\commun\user_posts.html:35
+msgid "Last"
+msgstr "אחרון"
+
+#: .\commun\templates\commun\post_confirm_delete.html:9
+#, fuzzy
+#| msgid "Create Post"
+msgid "Delete Post"
+msgstr "יצירת מודעה"
+
+#: .\commun\templates\commun\post_confirm_delete.html:10
+msgid "Are you sure you want to delete this post?"
+msgstr "האם אתה בטוח שתרצה למחוק את מודעה זו?"
+
+#: .\commun\templates\commun\post_confirm_delete.html:13
+msgid "Yes, Delete"
+msgstr "כן, בבקשה"
+
+#: .\commun\templates\commun\post_confirm_delete.html:14
+msgid "Cancel"
+msgstr "ביטול"
+
+#: .\commun\templates\commun\post_detail.html:13
+msgid "Update"
+msgstr "עדכן"
+
+#: .\commun\templates\commun\post_detail.html:14
+msgid "Delete"
+msgstr "מחק"
+
+#: .\commun\templates\commun\post_detail.html:25
+msgid "Comment"
+msgstr "תגובה"
+
+#: .\commun\templates\commun\post_detail.html:25
+msgid "by"
+msgstr "מ-"
+
+#: .\commun\templates\commun\post_detail.html:31
+msgid "There are no comments yet."
+msgstr "אין תגובות עדיין"
+
+#: .\commun\templates\commun\post_detail.html:35
+msgid "Your comment has been added."
+msgstr "התגובה שלך התפרסמה"
+
+#: .\commun\templates\commun\post_detail.html:37
+msgid "Add a new comment"
+msgstr "הוספת תגובה חדשה"
+
+#: .\commun\templates\commun\post_detail.html:42
+msgid "Add comment"
+msgstr "הוספת תגובה חדשה"
+
+#: .\commun\templates\commun\post_form.html:9
+msgid "Create Post"
+msgstr "יצירת מודעה"
+
+#: .\commun\templates\commun\post_form.html:13
+msgid "Post"
+msgstr "פרסם"
+
+#: .\commun\templates\commun\user_posts.html:4
+msgid "Posts By"
+msgstr "פרסומים על ידי"
+
+#: .\commun\views.py:119
+msgid "posts"
+msgstr "הודעה"
+
+#~ msgid "email"
+#~ msgstr "מייל"
